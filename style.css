@@ -1,16 +1,23 @@
 body
 {
+  position: relative;
     margin: 0% auto;
     padding: 0% auto;
 }
 
 .header
 {
-    position: absolute;
+    
     width: 100%;
     height: 20;
     background-color: black;
     
+}
+.superheader {
+  position: absolute;
+  width: 100%;
+  top: -25px;
+  background-color: #232629 !important;
 }
 
 .nav
@@ -54,7 +61,7 @@ right: 10%;
 .far
 {
     margin-top: 25px;
-    height: 100px;
+    height: 65px;
     background-color: white;
 }
 
@@ -128,7 +135,7 @@ right: 10%;
   }
   .img {
     width: 105px;
-    padding: 1%;
+    padding: 0.33333%;
   }
   .col-wrapper {
     margin: -33px 0 0;
@@ -212,7 +219,7 @@ right: 10%;
     left: 50%;
     max-width: 127px;
     position: absolute;
-    top: 0;
+    top: 4px;
     width: 30.57508%;
     background: #ea5a4b;
     margin-left: -43.5px;
@@ -429,7 +436,6 @@ p {
     text-align: center;
   }
   .print {
-    max-width: 43px;
     color: #252525;
     font-family: Bitter, serif;
     margin-top: 9px !important;
@@ -497,7 +503,6 @@ p {
   }
   .layer-2 {
     display: block;
-    margin: 14px auto;
     max-width: 206px;
     width: 100%; 
   }
@@ -796,4 +801,52 @@ p {
   }
   .row-3-3 > *:last-child {
     margin-right: 0 !important;
+  }
+  .slider {
+    margin: 11px 0 0;
+    min-height: 450px;
+    overflow: hidden;
+    padding: 8.2rem 0 18rem;
+    position: relative;
+    z-index: 119;
+    background: url(images/container_5.jpg) no-repeat center 0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .right-arrow {
+    display: block;
+    margin: 0 auto;
+    width: 8px;
+  }
+  .left-arrow {
+    display: block;
+    margin: 0 auto;
+    width: 8px;
+  }
+  .container-holder-2 {
+    float: left;
+    margin: 0 7.692307% 0 0; 
+    max-width: 30px;
+    min-height: 30px;
+    padding: 9px 15.384615%;
+    position: relative;
+    width: 46.153847%; 
+    background: #ea5a4b;
+  }
+  .container-holder-3 {
+    float: left;
+    max-width: 30px;
+    min-height: 30px;
+    padding: 9px 15.384615%; 
+    position: relative;
+    width: 46.153847%; 
+    background: #ea5a4b;
+  }
+  .arrows {
+    margin: 12px 0 0;
+    position: relative;
+    width: 18.309858%;
   }
