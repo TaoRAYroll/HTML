@@ -1,18 +1,6 @@
 @charset "UTF-8";
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video, input, textarea {
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -192,11 +180,13 @@ a.text-item.selected {
   background-size: cover;
 }
 .social-media-icons {
-  left: 40.04902%;
   margin: 0 auto;
-  position: relative;
-  width: 11.862745%; 
   margin: 9px auto;
+  display: flex;
+  width: 100px;
+  justify-content: right;
+  float: right;
+  padding-right: 10px;
 }
 .social-media-icons > * {
   float: left;
@@ -221,7 +211,7 @@ a.text-item.selected {
 .row {
   margin: -4px 0 0;
   min-height: 64px;
-  padding: 15px 3.921569%; 
+  align-items: center;
   position: relative;
   width: 100%; 
   z-index: 72;
@@ -231,10 +221,13 @@ a.text-item.selected {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
   float: left;
-  position: relative;
+  position: absolute;
+  margin-left: 15px;
   width: 13.723404%; 
 }
 .container-holder {
@@ -259,13 +252,20 @@ a.text-item.selected {
 }
 .nav {
   float: right;
-  margin: 14px 0.106383% 0 0;
-  position: relative;
+  margin: 0px auto;
+  position: absolute;
   width: 29.680851%; 
+  right: 0;
+  margin-right: 12%;
+  padding-bottom: 7px;
 }
 .nav-list {
-  position: relative;
+  position: absolute;
   list-style: none;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .nav-list li {
   float: left;
